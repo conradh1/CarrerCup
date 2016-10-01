@@ -10,7 +10,7 @@ class CharacterDuplicate
       for ( int i =0; i < str.length()-1; i++) {        
         String sub = str.substring(i+1);
         if ( sub.indexOf(str.charAt(i)) > -1)
-          return true;           
+          return true;
       }
       return false;
   }
